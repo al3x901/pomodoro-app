@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_time_increment_five">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+    </string-array>
+
+    <string-array name="pref_time_increment_five_values">
+        <item>300000</item>
+        <item>100000</item>
+        <item>150000</item>
+        <item>200000</item>
+        <item>1500000</item>
+        <item>300000</item>
+        <item>350000</item>
+    </string-array>
+
+    <string-array name="pref_time_increment_one">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="pref_time_increment_one_values">
+        <item>10000</item>
+        <item>20000</item>
+        <item>30000</item>
+        <item>40000</item>
+        <item>50000</item>
+        <item>70000</item>
+        <item>80000</item>
+        <item>90000</item>
+        <item>100000</item>
+    </string-array>
+
+</resources>

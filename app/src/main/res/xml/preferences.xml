@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/pref_timer_category"
+        android:key="pref_timer_category">
+        <ListPreference
+            android:entries="@array/pref_time_increment_five"
+            android:entryValues="@array/pref_time_increment_five_values"
+            android:title="@string/pref_work_length"
+            android:key="pref_work_length"
+            />
+        <ListPreference
+            android:entries="@array/pref_time_increment_one"
+            android:entryValues="@array/pref_time_increment_one_values"
+            android:title="@string/pref_break_length"
+            android:key="pref_break_length"
+            />
+        <ListPreference
+            android:entries="@array/pref_time_increment_five"
+            android:entryValues="@array/pref_time_increment_five_values"
+            android:title="@string/pref_long_break_length"
+            android:key="pref_long_break_length"
+            />
+        <ListPreference
+            android:entries="@array/pref_time_increment_one"
+            android:entryValues="@array/pref_time_increment_one"
+            android:title="@string/pref_set"
+            android:key="pref_set"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_notification_category"
+        android:key="pref_notification_category">
+
+        <CheckBoxPreference
+            android:title="@string/pref_work_end_notif"
+            android:key="pref_work_end_notif"
+            />
+        <CheckBoxPreference
+            android:title="@string/pref_break_end_notif"
+            android:key="pref_break_end_notif"
+            />
+        <CheckBoxPreference
+            android:title="@string/pref_mid_work_notif"
+            android:key="pref_mid_work_notif"
+            />
+        <CheckBoxPreference
+            android:title="@string/pref_mid_break_notif"
+            android:key="pref_mid_break_notif"
+            />
+    </PreferenceCategory>
+
+</PreferenceScreen>
