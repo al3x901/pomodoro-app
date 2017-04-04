@@ -23,8 +23,6 @@ import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
 
-    private final String TAG = "MainActivity";
-
     private Button timerButton;
     private RelativeLayout relativeLayoutMain;
 
