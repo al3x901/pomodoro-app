@@ -24,6 +24,7 @@ import java.util.Map;
 public class MainActivity extends AppCompatActivity {
 
     private Button timerButton;
+    private Button projectButton;
     private RelativeLayout relativeLayoutMain;
 
     private Context mContext;
@@ -48,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
 
         relativeLayoutMain = (RelativeLayout) findViewById(R.id.relativeLayoutMain);
         timerButton = (Button) findViewById(R.id.timerButton);
+        projectButton = (Button) findViewById(R.id.projectButton);
 
         setUpTimers();
         setUpListeners();
@@ -165,6 +167,15 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 // Go to pomodoro settings
                 Intent intent = new Intent(MainActivity.this, SettingsActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        projectButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Go to pomodoro settings
+                Intent intent = new Intent(MainActivity.this, ProjectManagementActivity.class);
                 startActivity(intent);
             }
         });
